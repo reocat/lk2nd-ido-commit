@@ -51,6 +51,7 @@ page on the EFIDroid wiki for an exact mapping of LK targets to SoCs.
 - ARK Benefit A3 - peach
 - Asus Zenfone 2 Laser (720p) - Z00L
 - Asus Zenfone 2 Laser (1080p) - Z00T
+- Asus Zenfone 2 Laser ZE500KL - Z00E
 - Asus Zenfone Max ZC550KL (2016) - Z010D
 - BQ Aquaris M5 - piccolo (use `lk2nd-msm8916-appended-dtb.img`)
 - BQ Aquaris X5 - paella, picmt
@@ -58,12 +59,14 @@ page on the EFIDroid wiki for an exact mapping of LK targets to SoCs.
 - GPLUS FL8005A
 - HTC One M8s - m8qlul (quirky - see comment in `dts/msm8916/msm8939-htc-m8qlul.dts`)
 - Huawei Ascend G7 - G7-L01
-- Huawei Honor 5X - kiwi
+- Huawei G8 / GX8 / RIO-L01 - rio
+- Huawei Honor 5X / GR5 (2016) - kiwi
 - Huawei Y635 - Y635-L01 (quirky - see comment in `dts/msm8916/msm8916-huawei-y635-l01.dts`)
 - Lenovo A6000
 - Lenovo A6010
 - Lenovo PHAB Plus - PB1-770M, PB1-770N, PB1-770P
 - Lenovo Vibe K5 - A6020a40, A6020a41
+- Lenovo Vibe K5 Plus - A6020l36, A6020a46
 - LG K10 (m216) - K420
 - LG Leon LTE (c50) - H340, H342, H343, H345, MS345, etc
 - LYF Wind 1 - ls5010
@@ -72,20 +75,21 @@ page on the EFIDroid wiki for an exact mapping of LK targets to SoCs.
 - Motorola Moto G (2015) - osprey
 - Motorola Moto G4 Play - harpia
 - Samsung Galaxy A3 (2015) - SM-A300F, SM-A300FU
-- Samsung Galaxy A5 (2015) - SM-A500F, SM-A500FU, SM-A500H, SM-A500YZ
+- Samsung Galaxy A5 (Duos) (2015) - SM-A5000, SM-A500F, SM-A500FU, SM-A500H, SM-A500YZ
 - Samsung Galaxy A7 (2015) - SM-A700YD
 - Samsung Galaxy Ace 4 - SM-G357FZ (quirky - see comment in `dts/msm8916/msm8916-samsung-r02.dts`)
 - Samsung Galaxy Core Max - SM-G5108Q (quirky - see comment in `dts/msm8916/msm8916-samsung-r08.dts`)
 - Samsung Galaxy Core Prime LTE - SM-G360F, SM-G360G (rossaltezt is quirky - see comment in `dts/msm8916/msm8916-samsung-r03.dts`)
+- Samsung Galaxy E5 - SM-E500F
 - Samsung Galaxy E7 - SM-E7000
 - Samsung Galaxy Grand Max - SM-G720AX
 - Samsung Galaxy Grand Prime - SM-G530FZ, SM-G530H, SM-G530W, SM-G530Y (G530Y is quirky - see comment in `dts/msm8916/msm8916-samsung-r11.dts`)
 - Samsung Galaxy J3 (2016) - SM-J3109, SM-J320YZ
 - Samsung Galaxy J3 Pro - SM-J3110, SM-J3119
 - Samsung Galaxy J5 (2015) - SM-J5007, SM-J5008, SM-J500F, SM-J500FN, SM-J500H, SM-J500M
-- Samsung Galaxy J5 (2016) - SM-J5108, SM-J510F, SM-J510FN, SM-J510UN
+- Samsung Galaxy J5 (2016) - SM-J5108, SM-J510F, SM-J510FN, SM-J510MN, SM-J510UN
 - Samsung Galaxy J7 (2015) - SM-J7008, SM-J700P
-- Samsung Galaxy On7 (2015) - SM-G6000
+- Samsung Galaxy On7 (2015) - SM-G6000, SM-G600S
 - Samsung Galaxy S4 Mini Value Edition - GT-I9195I
 - Samsung Galaxy Tab 4 10.1 (2015) - SM-T533
 - Samsung Galaxy Tab A 8.0 (2015) - SM-T350, SM-T355, SM-T355Y, SM-T357W
@@ -110,6 +114,7 @@ page on the EFIDroid wiki for an exact mapping of LK targets to SoCs.
 
 ### lk2nd-msm8226
 - ASUS ZenWatch 2 - sparrow
+- Coolpad 8730L - 8730l
 - Huawei Ascend G6 4G - G6-L11 (quirky - see comment in `dts/msm8226/msm8926-huawei-g6-l11-vb.dts`)
 - Huawei Watch - sturgeon
 - LG G Watch R - lenok (use `lk2nd-appended-dtb.img`)
